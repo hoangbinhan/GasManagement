@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A161E923696CD70006853D /* ChiTietSanPhamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A161E723696CD70006853D /* ChiTietSanPhamController.swift */; };
+		00A161EA23696CD70006853D /* ChiTietSanPhamController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A161E823696CD70006853D /* ChiTietSanPhamController.xib */; };
+		00B77BA42368124B000EC8DA /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B77BA32368124B000EC8DA /* TabbarController.swift */; };
+		00CFA9DA2367114300622559 /* SanPhamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CFA9D82367114300622559 /* SanPhamController.swift */; };
+		00CFA9DB2367114300622559 /* SanPhamController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CFA9D92367114300622559 /* SanPhamController.xib */; };
+		00E0C3C023668A830007F2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0C3BF23668A830007F2D4 /* AppDelegate.swift */; };
+		00E0C3C723668A860007F2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E0C3C623668A860007F2D4 /* Assets.xcassets */; };
+		00E0C3CA23668A860007F2D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E0C3C823668A860007F2D4 /* LaunchScreen.storyboard */; };
+		00E0C3E023668F420007F2D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0C3D723668F410007F2D4 /* Constants.swift */; };
+		00E0C3E223668F420007F2D4 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0C3D923668F410007F2D4 /* ColorConstants.swift */; };
+		00E0C3E323668F420007F2D4 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0C3DA23668F410007F2D4 /* StringConstants.swift */; };
+		00E0C3E723668F420007F2D4 /* FontConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E0C3DE23668F410007F2D4 /* FontConstants.swift */; };
+		150D1B85237AA592002C04CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150D1B84237AA592002C04CD /* GoogleService-Info.plist */; };
+		1513F4DF2379284300DD7FE8 /* AddSanPhamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1513F4DD2379284200DD7FE8 /* AddSanPhamController.swift */; };
+		1513F4E02379284300DD7FE8 /* AddSanPhamController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1513F4DE2379284200DD7FE8 /* AddSanPhamController.xib */; };
+		1518EC63237FCB2C009795B7 /* SanPhamCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518EC61237FCB2C009795B7 /* SanPhamCollectionCell.swift */; };
+		1518EC64237FCB2C009795B7 /* SanPhamCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1518EC62237FCB2C009795B7 /* SanPhamCollectionCell.xib */; };
+		1518EC66237FE7FD009795B7 /* SanPhamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1518EC65237FE7FD009795B7 /* SanPhamModel.swift */; };
+		155845D12376711B00AECC50 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155845CF2376711B00AECC50 /* LoginController.swift */; };
+		155845D22376711B00AECC50 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155845D02376711B00AECC50 /* LoginController.xib */; };
+		1594703B2373072D0076289C /* HoaDonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159470392373072D0076289C /* HoaDonController.swift */; };
+		1594703C2373072D0076289C /* HoaDonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1594703A2373072D0076289C /* HoaDonController.xib */; };
+		159BC7F7237EA20C00812F47 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159BC7F6237EA20C00812F47 /* DatabaseService.swift */; };
+		15C094ED237D284E0065BE6D /* KhoHangController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C094EB237D284E0065BE6D /* KhoHangController.swift */; };
+		15C094EE237D284E0065BE6D /* KhoHangController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C094EC237D284E0065BE6D /* KhoHangController.xib */; };
+		5E574418FB8D8265A85AFBF0 /* Pods_QuanLyGas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8409799A154817C47B7ACEC /* Pods_QuanLyGas.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00A161E723696CD70006853D /* ChiTietSanPhamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiTietSanPhamController.swift; sourceTree = "<group>"; };
+		00A161E823696CD70006853D /* ChiTietSanPhamController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChiTietSanPhamController.xib; sourceTree = "<group>"; };
+		00B77BA32368124B000EC8DA /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		00CFA9D82367114300622559 /* SanPhamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanPhamController.swift; sourceTree = "<group>"; };
+		00CFA9D92367114300622559 /* SanPhamController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SanPhamController.xib; sourceTree = "<group>"; };
+		00E0C3BC23668A830007F2D4 /* QuanLyGas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanLyGas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E0C3BF23668A830007F2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00E0C3C623668A860007F2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00E0C3C923668A860007F2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00E0C3CB23668A860007F2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E0C3D723668F410007F2D4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00E0C3D923668F410007F2D4 /* ColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		00E0C3DA23668F410007F2D4 /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		00E0C3DE23668F410007F2D4 /* FontConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConstants.swift; sourceTree = "<group>"; };
+		150D1B84237AA592002C04CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1513F4DD2379284200DD7FE8 /* AddSanPhamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSanPhamController.swift; sourceTree = "<group>"; };
+		1513F4DE2379284200DD7FE8 /* AddSanPhamController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddSanPhamController.xib; sourceTree = "<group>"; };
+		1518EC61237FCB2C009795B7 /* SanPhamCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanPhamCollectionCell.swift; sourceTree = "<group>"; };
+		1518EC62237FCB2C009795B7 /* SanPhamCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SanPhamCollectionCell.xib; sourceTree = "<group>"; };
+		1518EC65237FE7FD009795B7 /* SanPhamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanPhamModel.swift; sourceTree = "<group>"; };
+		155845CF2376711B00AECC50 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		155845D02376711B00AECC50 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		159470392373072D0076289C /* HoaDonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoaDonController.swift; sourceTree = "<group>"; };
+		1594703A2373072D0076289C /* HoaDonController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoaDonController.xib; sourceTree = "<group>"; };
+		159BC7F6237EA20C00812F47 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		15C094EB237D284E0065BE6D /* KhoHangController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhoHangController.swift; sourceTree = "<group>"; };
+		15C094EC237D284E0065BE6D /* KhoHangController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KhoHangController.xib; sourceTree = "<group>"; };
+		19A65920C6FE96C1DA40B7EB /* Pods-QuanLyGas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuanLyGas.release.xcconfig"; path = "Target Support Files/Pods-QuanLyGas/Pods-QuanLyGas.release.xcconfig"; sourceTree = "<group>"; };
+		515E2DBDF7EF69FE6ABDE7C0 /* Pods-QuanLyGas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuanLyGas.debug.xcconfig"; path = "Target Support Files/Pods-QuanLyGas/Pods-QuanLyGas.debug.xcconfig"; sourceTree = "<group>"; };
+		A8409799A154817C47B7ACEC /* Pods_QuanLyGas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuanLyGas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E0C3B923668A830007F2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E574418FB8D8265A85AFBF0 /* Pods_QuanLyGas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E0C3B323668A830007F2D4 = {
+			isa = PBXGroup;
+			children = (
+				00E0C3BE23668A830007F2D4 /* QuanLyGas */,
+				00E0C3BD23668A830007F2D4 /* Products */,
+				323FC65F10E80D50F56F4A52 /* Pods */,
+				CEAF1D15A572E6AA827429D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00E0C3BD23668A830007F2D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00E0C3BC23668A830007F2D4 /* QuanLyGas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00E0C3BE23668A830007F2D4 /* QuanLyGas */ = {
+			isa = PBXGroup;
+			children = (
+				1518EC60237FCB01009795B7 /* Cells */,
+				159BC7F3237EA07000812F47 /* Model */,
+				00E0C3D623668F410007F2D4 /* Constants */,
+				00E0C3D123668AA00007F2D4 /* View */,
+				00E0C3BF23668A830007F2D4 /* AppDelegate.swift */,
+				00E0C3C623668A860007F2D4 /* Assets.xcassets */,
+				00E0C3C823668A860007F2D4 /* LaunchScreen.storyboard */,
+				150D1B84237AA592002C04CD /* GoogleService-Info.plist */,
+				00E0C3CB23668A860007F2D4 /* Info.plist */,
+			);
+			path = QuanLyGas;
+			sourceTree = "<group>";
+		};
+		00E0C3D123668AA00007F2D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15C094EA237D282C0065BE6D /* KhoHang */,
+				15C094E9237D28060065BE6D /* AddSanPham */,
+				15C094E8237D27F60065BE6D /* Login */,
+				15C094E7237D27D90065BE6D /* HoaDon */,
+				15C094E6237D27B80065BE6D /* ChiTietSanPham */,
+				15C094E5237D27A10065BE6D /* SanPham */,
+				00B77BA32368124B000EC8DA /* TabbarController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		00E0C3D623668F410007F2D4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				00E0C3D723668F410007F2D4 /* Constants.swift */,
+				00E0C3D923668F410007F2D4 /* ColorConstants.swift */,
+				00E0C3DA23668F410007F2D4 /* StringConstants.swift */,
+				00E0C3DE23668F410007F2D4 /* FontConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1518EC60237FCB01009795B7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1518EC61237FCB2C009795B7 /* SanPhamCollectionCell.swift */,
+				1518EC62237FCB2C009795B7 /* SanPhamCollectionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		159BC7F3237EA07000812F47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				159BC7F6237EA20C00812F47 /* DatabaseService.swift */,
+				1518EC65237FE7FD009795B7 /* SanPhamModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15C094E5237D27A10065BE6D /* SanPham */ = {
+			isa = PBXGroup;
+			children = (
+				00CFA9D82367114300622559 /* SanPhamController.swift */,
+				00CFA9D92367114300622559 /* SanPhamController.xib */,
+			);
+			name = SanPham;
+			sourceTree = "<group>";
+		};
+		15C094E6237D27B80065BE6D /* ChiTietSanPham */ = {
+			isa = PBXGroup;
+			children = (
+				00A161E723696CD70006853D /* ChiTietSanPhamController.swift */,
+				00A161E823696CD70006853D /* ChiTietSanPhamController.xib */,
+			);
+			name = ChiTietSanPham;
+			sourceTree = "<group>";
+		};
+		15C094E7237D27D90065BE6D /* HoaDon */ = {
+			isa = PBXGroup;
+			children = (
+				159470392373072D0076289C /* HoaDonController.swift */,
+				1594703A2373072D0076289C /* HoaDonController.xib */,
+			);
+			name = HoaDon;
+			sourceTree = "<group>";
+		};
+		15C094E8237D27F60065BE6D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				155845CF2376711B00AECC50 /* LoginController.swift */,
+				155845D02376711B00AECC50 /* LoginController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		15C094E9237D28060065BE6D /* AddSanPham */ = {
+			isa = PBXGroup;
+			children = (
+				1513F4DD2379284200DD7FE8 /* AddSanPhamController.swift */,
+				1513F4DE2379284200DD7FE8 /* AddSanPhamController.xib */,
+			);
+			name = AddSanPham;
+			sourceTree = "<group>";
+		};
+		15C094EA237D282C0065BE6D /* KhoHang */ = {
+			isa = PBXGroup;
+			children = (
+				15C094EB237D284E0065BE6D /* KhoHangController.swift */,
+				15C094EC237D284E0065BE6D /* KhoHangController.xib */,
+			);
+			name = KhoHang;
+			sourceTree = "<group>";
+		};
+		323FC65F10E80D50F56F4A52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				515E2DBDF7EF69FE6ABDE7C0 /* Pods-QuanLyGas.debug.xcconfig */,
+				19A65920C6FE96C1DA40B7EB /* Pods-QuanLyGas.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEAF1D15A572E6AA827429D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8409799A154817C47B7ACEC /* Pods_QuanLyGas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E0C3BB23668A830007F2D4 /* QuanLyGas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E0C3CE23668A860007F2D4 /* Build configuration list for PBXNativeTarget "QuanLyGas" */;
+			buildPhases = (
+				AD9A6F299F315BC5956B3AA1 /* [CP] Check Pods Manifest.lock */,
+				00E0C3B823668A830007F2D4 /* Sources */,
+				00E0C3B923668A830007F2D4 /* Frameworks */,
+				00E0C3BA23668A830007F2D4 /* Resources */,
+				5815D3C26DD9E2B9140CACE1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuanLyGas;
+			productName = QuanLyGas;
+			productReference = 00E0C3BC23668A830007F2D4 /* QuanLyGas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00E0C3B423668A830007F2D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Nguyen Van Huy";
+				TargetAttributes = {
+					00E0C3BB23668A830007F2D4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 00E0C3B723668A830007F2D4 /* Build configuration list for PBXProject "QuanLyGas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00E0C3B323668A830007F2D4;
+			productRefGroup = 00E0C3BD23668A830007F2D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00E0C3BB23668A830007F2D4 /* QuanLyGas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E0C3BA23668A830007F2D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1518EC64237FCB2C009795B7 /* SanPhamCollectionCell.xib in Resources */,
+				00E0C3CA23668A860007F2D4 /* LaunchScreen.storyboard in Resources */,
+				150D1B85237AA592002C04CD /* GoogleService-Info.plist in Resources */,
+				1513F4E02379284300DD7FE8 /* AddSanPhamController.xib in Resources */,
+				00A161EA23696CD70006853D /* ChiTietSanPhamController.xib in Resources */,
+				00E0C3C723668A860007F2D4 /* Assets.xcassets in Resources */,
+				155845D22376711B00AECC50 /* LoginController.xib in Resources */,
+				00CFA9DB2367114300622559 /* SanPhamController.xib in Resources */,
+				1594703C2373072D0076289C /* HoaDonController.xib in Resources */,
+				15C094EE237D284E0065BE6D /* KhoHangController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5815D3C26DD9E2B9140CACE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuanLyGas/Pods-QuanLyGas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuanLyGas/Pods-QuanLyGas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuanLyGas/Pods-QuanLyGas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9A6F299F315BC5956B3AA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuanLyGas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E0C3B823668A830007F2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155845D12376711B00AECC50 /* LoginController.swift in Sources */,
+				1513F4DF2379284300DD7FE8 /* AddSanPhamController.swift in Sources */,
+				15C094ED237D284E0065BE6D /* KhoHangController.swift in Sources */,
+				00E0C3E323668F420007F2D4 /* StringConstants.swift in Sources */,
+				00E0C3E223668F420007F2D4 /* ColorConstants.swift in Sources */,
+				1518EC66237FE7FD009795B7 /* SanPhamModel.swift in Sources */,
+				1594703B2373072D0076289C /* HoaDonController.swift in Sources */,
+				00E0C3C023668A830007F2D4 /* AppDelegate.swift in Sources */,
+				159BC7F7237EA20C00812F47 /* DatabaseService.swift in Sources */,
+				1518EC63237FCB2C009795B7 /* SanPhamCollectionCell.swift in Sources */,
+				00E0C3E723668F420007F2D4 /* FontConstants.swift in Sources */,
+				00CFA9DA2367114300622559 /* SanPhamController.swift in Sources */,
+				00A161E923696CD70006853D /* ChiTietSanPhamController.swift in Sources */,
+				00B77BA42368124B000EC8DA /* TabbarController.swift in Sources */,
+				00E0C3E023668F420007F2D4 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00E0C3C823668A860007F2D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00E0C3C923668A860007F2D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E0C3CC23668A860007F2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00E0C3CD23668A860007F2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00E0C3CF23668A860007F2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515E2DBDF7EF69FE6ABDE7C0 /* Pods-QuanLyGas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KYN8GFJ6T;
+				INFOPLIST_FILE = QuanLyGas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenvanhuy.QuanLyGas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00E0C3D023668A860007F2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A65920C6FE96C1DA40B7EB /* Pods-QuanLyGas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KYN8GFJ6T;
+				INFOPLIST_FILE = QuanLyGas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyenvanhuy.QuanLyGas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E0C3B723668A830007F2D4 /* Build configuration list for PBXProject "QuanLyGas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E0C3CC23668A860007F2D4 /* Debug */,
+				00E0C3CD23668A860007F2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00E0C3CE23668A860007F2D4 /* Build configuration list for PBXNativeTarget "QuanLyGas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E0C3CF23668A860007F2D4 /* Debug */,
+				00E0C3D023668A860007F2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00E0C3B423668A830007F2D4 /* Project object */;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1072754793699-jvrmvh0kp33lgiiv2lcmsiieelgh5sv3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1072754793699-jvrmvh0kp33lgiiv2lcmsiieelgh5sv3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAu7ClBdeCFWylCY57REL4BkBTq2oQdDec</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1072754793699</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nguyenvanhuy.QuanLyGas</string>
+	<key>PROJECT_ID</key>
+	<string>quanlygas</string>
+	<key>STORAGE_BUCKET</key>
+	<string>quanlygas.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1072754793699:ios:a9153bd32963e5b69b79d6</string>
+	<key>DATABASE_URL</key>
+	<string>https://quanlygas.firebaseio.com</string>
+</dict>
+</plist>
